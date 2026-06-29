@@ -1,0 +1,15 @@
+{
+	"name": "dfazureprojectbala",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "15b03a96-1530-4468-ac69-7162b8758cf9",
+		"tenantId": "4355981c-1c07-48a7-acc5-e4462692f4a8"
+	}
+}
