@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfazureprojectbala"
+		},
+		"AzureSql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSql_properties_typeProperties_server": {
+			"value": "serverbala.database.windows.net"
+		},
+		"AzureSql_properties_typeProperties_database": {
+			"value": "azureprojebala"
+		},
+		"AzureSql_properties_typeProperties_userName": {
+			"value": "adminbala"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://balaazurproject.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
